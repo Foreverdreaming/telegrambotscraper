@@ -23,8 +23,8 @@
     <h3>2. Install Dependencies</h3>
     <pre><code>pip install pyTelegramBotAPI feedparser</code></pre>
     <h3>3. Clone the Project</h3>
-    <pre><code>git clone https://github.com/yourusername/telegram-rss-feed-bot.git
-cd telegram-rss-feed-bot</code></pre>
+    <pre><code>git clone https://github.com/Foreverdreaming/telegrambotscraper.git
+cd telegrambotscraper</code></pre>
     <h3>4. Update the Script</h3>
     <p>Replace the placeholder <code>YOUR_BOT_TOKEN</code> with your actual Telegram Bot API token in the <code>scraper.py</code> file. Modify the <code>RSS_FEEDS</code> dictionary to include your desired RSS feed URLs.</p>
     <pre><code>
