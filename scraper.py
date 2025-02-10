@@ -4,13 +4,13 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 
 
 # Your Telegram bot token from BotFather
-# BOT_TOKEN = "YOUR_TELEGRAMBOT_TOKEN"
+BOT_TOKEN = "YOUR_TELEGRAMBOT_TOKEN"
 
-# # RSS feed URLs
-# RSS_FEEDS = {
-#     "Feed 1": "https://www.example.com/feed1/",
-#     "Feed 2": "https://www.example.com/feed2/"
-# }
+# RSS feed URLs
+RSS_FEEDS = {
+    "Feed 1": "https://www.example.com/feed1/",
+    "Feed 2": "https://www.example.com/feed2/"
+}
 
 bot = telebot.TeleBot(BOT_TOKEN)
 user_last_feed = {}
