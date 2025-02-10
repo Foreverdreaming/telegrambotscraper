@@ -26,7 +26,7 @@ def send_welcome(message):
 def choose_feed(message):
     """Present the user with feed choices."""
     markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
-    markup.add(KeyboardButton("Bleeping Computer"), KeyboardButton("HackerNews"))
+    markup.add(KeyboardButton("Feed1"), KeyboardButton("Feed2"))
 
     bot.send_message(message.chat.id, "Choose a feed:", reply_markup=markup)
 
