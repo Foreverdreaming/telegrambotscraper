@@ -33,3 +33,5 @@ RSS_FEEDS = {
     "Feed 2": "https://example.com/rss2"
 }
     </code></pre>
+    <h3>5. Run the Bot</h3>
+    <pre><code>python scraper.py</code></pre>
